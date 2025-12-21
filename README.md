@@ -3,7 +3,7 @@
 <div align="center">
 
 <!-- Recomendado: usa tu banner propio /assets/banner.svg para un look consistente -->
-<img src="./assets/banner.svg" alt="JC banner" width="100%" />
+<img src="./assets/banner.png" alt="JC banner" width="100%" />
 
 <br/><br/>
 
