@@ -1,0 +1,14 @@
+# Config del generador (puede ser sobrescrito por variables de entorno)
+github_user: ""        # si está vacío: GH_PROFILE_USER o GITHUB_ACTOR
+weeks: 53
+days: 7
+
+# Rendering
+canvas_width: 1280
+canvas_height: 720
+frames: 16
+fps: 12
+
+# Estética
+background: "misty"    # misty | sunrise | twilight | night | paper | minimal | fog
+seed: 42               # para determinismo

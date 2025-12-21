@@ -1,74 +1,33 @@
-<!-- jcval94 / Profile README — Elegant / Harmonious / Pro -->
+# GitHub Forest (InsideForest style) 🌲
 
-<div align="center">
+Este repo genera un **bosque animado** basado en tus contribuciones de GitHub (grid 53×7) y lo actualiza **cada semana** con GitHub Actions.
 
-<!-- Recomendado: usa tu banner propio /assets/banner.svg para un look consistente -->
-<img src="./assets/banner.svg" alt="JC banner" width="100%" />
+- **Sprites (árboles)**: `assets/trees/A1.png ... A8.png`
+- **Salida**: `dist/forest.gif` y `dist/forest.png`
 
-<br/><br/>
+## Cómo usarlo
 
-<p>
-  <a href="https://github.com/jcval94/InsideForest">InsideForest</a> ·
-  <a href="https://github.com/jcval94/movilidad_social_mx">Movilidad Social (MX)</a> ·
-  <a href="https://github.com/sponsors/jcval94">Sponsors</a> ·
-  <a href="mailto:YOUR_EMAIL">Email</a> ·
-  <a href="YOUR_CALENDAR">Calendar</a>
-</p>
+1) Crea un repo nuevo en GitHub (o usa tu repo de perfil `USERNAME/USERNAME`).
+2) Sube el contenido de este zip.
+3) (Opcional recomendado) en **Settings → Secrets and variables → Actions** agrega:
+   - `GH_PROFILE_USER` (tu usuario de GitHub, p.ej. `jcval94`)
+   - Si el workflow no puede leer contribuciones con `GITHUB_TOKEN`, crea un PAT y guárdalo como:
+     - `GH_TOKEN` con scopes: `read:user` (y `repo` solo si el repo es privado)
 
-<!-- Animación opcional, MUY sutil.
-     Si quieres aún más elegancia: bórrala completamente. -->
-<img src="https://readme-typing-svg.demolab.com?font=Inter&size=14&duration=2600&pause=1200&color=9CA3AF&center=true&vCenter=true&width=760&lines=Interpretable+ML+%E2%80%94+reglas%2C+segmentos+y+pipelines+reproducibles+para+decisiones+reales." />
+El workflow corre cada semana y también puedes ejecutarlo manualmente.
 
-</div>
+## Mostrar el GIF en tu README
 
----
+```md
+![forest](dist/forest.gif)
+```
 
-## En una frase
-Construyo **ML interpretable** (reglas, segmentos, regiones) y **pipelines reproducibles** para datos tabulares — con foco en **riesgo, fraude, segmentación** y **análisis social**.
+## Ajustes rápidos
 
----
-
-## Proyectos principales
-
-### 🌲 InsideForest
-**Supervised clustering interpretable**: segmenta población guiándote por un target (fraude/churn/etc.) y devuelve **reglas claras** + métricas por segmento.
-
-- Segmentación guiada por objetivo (no clustering “ciego”)
-- Interpretabilidad utilizable (reglas compactas)
-- Enfoque tabular, mentalidad scikit-learn
-
-→ https://github.com/jcval94/InsideForest
+- Cambia el mapping de actividad → tamaño en `src/render.py`:
+  - `pick_sprite_bucket(count)` decide qué PNG usar.
+  - `height_from_count(count)` define qué tan alto se dibuja.
 
 ---
 
-### 📈 Movilidad Social (MX)
-Proyecto reproducible para medir y comunicar movilidad social con métricas, matrices de transición y reportes — con **transparencia metodológica** y **uso responsable**.
-
-- Reportes compartibles con no técnicos
-- Métricas bien documentadas (sin vender causalidad)
-- Limitaciones y ética como primera clase
-
-→ https://github.com/jcval94/movilidad_social_mx
-
----
-
-## Trabajo conmigo
-Si tu equipo quiere implementar esto con rigor (reproducibilidad, documentación y resultados defendibles):
-
-- **Auditoría** (1–2 semanas): riesgos (leakage/drift), estabilidad, setup recomendado
-- **Implementación** (2–6 semanas): integración a pipeline, CI, reportes y governance
-- **Workshop**: interpretabilidad aplicada + segmentación guiada por target
-
-Email: `jcval94@gmail.com`  
-Calendar: `NPI`
-
----
-
-## Sponsors
-Si te sirve lo que construyo y quieres empujar el roadmap:
-
-→ https://github.com/sponsors/jcval94
-
-<div align="center">
-  <sub>Menos ruido, más señal. Reproducible, interpretable y presentable.</sub>
-</div>
+Hecho para que sea **determinístico** (sin parpadeos) y con fallback a datos dummy si falla la API.
