@@ -28,41 +28,47 @@
 
 ---
 
-## En una frase
-Construyo **ML interpretable** (reglas, segmentos, regiones) y **pipelines reproducibles** para datos tabulares — con foco en **riesgo, fraude, segmentación** y **análisis social**.
-
----
-
 ## Proyectos principales
 
-### 🌲 InsideForest
-**Supervised clustering interpretable**: segmenta población guiándote por un target (fraude/churn/etc.) y devuelve **reglas claras** + métricas por segmento.
+<table>
+  <tr>
+    <td width="50%" valign="top">
 
-- Segmentación guiada por objetivo (no clustering “ciego”)
-- Interpretabilidad utilizable (reglas compactas)
-- Enfoque tabular, mentalidad scikit-learn
+<h3>🌲 InsideForest</h3>
+<p><strong>Supervised clustering interpretable</strong>: segmenta población guiándote por un target (fraude/churn/etc.) y devuelve <strong>reglas claras</strong> + métricas por segmento.</p>
 
-→ https://github.com/jcval94/InsideForest
+<ul>
+  <li>Segmentación guiada por objetivo (no clustering “ciego”)</li>
+  <li>Interpretabilidad utilizable (reglas compactas)</li>
+</ul>
 
----
+<p>→ <a href="https://github.com/jcval94/InsideForest">github.com/jcval94/InsideForest</a></p>
 
-### 📈 Movilidad Social (MX)
-Proyecto reproducible para medir y comunicar movilidad social con métricas, matrices de transición y reportes — con **transparencia metodológica** y **uso responsable**.
+    </td>
+    <td width="50%" valign="top">
 
-- Reportes compartibles con no técnicos
-- Métricas bien documentadas (sin vender causalidad)
-- Limitaciones y ética como primera clase
+<h3>📈 Movilidad Social (MX)</h3>
+<p>Proyecto reproducible para medir y comunicar movilidad social con métricas, matrices de transición y reportes — con <strong>transparencia metodológica</strong> y <strong>uso responsable</strong>.</p>
 
-→ https://github.com/jcval94/movilidad_social_mx
+<ul>
+  <li>Reportes compartibles con no técnicos</li>
+  <li>Métricas bien documentadas (sin vender causalidad)</li>
+</ul>
+
+<p>→ <a href="https://github.com/jcval94/movilidad_social_mx">github.com/jcval94/movilidad_social_mx</a></p>
+
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## Trabajo conmigo
-Si tu equipo quiere implementar esto con rigor (reproducibilidad, documentación y resultados defendibles):
+Si tu equipo quiere implementar esto con rigor (reproducibilidad, documentación y resultados):
 
-- **Auditoría** (1–2 semanas): riesgos (leakage/drift), estabilidad, setup recomendado
-- **Implementación** (2–6 semanas): integración a pipeline, CI, reportes y governance
-- **Workshop**: interpretabilidad aplicada + segmentación guiada por target
+- **Workshops**: Interpretabilidad aplicada a ML
+- **AI** (1–2 semanas): riesgos (leakage/drift), estabilidad, setup recomendado
+- **Implementación** (2–6 semanas): integración, CI, reportes y resultados
 
 Email: `jcval94@gmail.com`  
 Calendar: `https://cal.com/jcval94`  <!-- cámbialo si usas otro -->
@@ -70,7 +76,7 @@ Calendar: `https://cal.com/jcval94`  <!-- cámbialo si usas otro -->
 ---
 
 ## Sponsors
-Si te sirve lo que construyo y quieres empujar el roadmap:
+Si te sirve lo que construyo y quieres empujar:
 
 → https://github.com/sponsors/jcval94
 
