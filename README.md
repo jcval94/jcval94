@@ -27,35 +27,29 @@
 ## Proyectos principales
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-
+<tr>
+<td width="50%" valign="top">
 <h3>🌲 InsideForest</h3>
 <p><strong>Supervised clustering interpretable</strong>: segmenta población guiándote por un target (fraude/churn/etc.) y devuelve <strong>reglas claras</strong> + métricas por segmento.</p>
-
 <ul>
-  <li>Segmentación guiada por objetivo (no clustering “ciego”)</li>
-  <li>Interpretabilidad utilizable (reglas compactas)</li>
+<li>Segmentación guiada por objetivo (no clustering “ciego”)</li>
+<li>Interpretabilidad utilizable (reglas compactas)</li>
 </ul>
-
 <p>→ <a href="https://github.com/jcval94/InsideForest">github.com/jcval94/InsideForest</a></p>
+</td>
 
-    </td>
-    <td width="50%" valign="top">
-
+<td width="50%" valign="top">
 <h3>📈 Movilidad Social (MX)</h3>
 <p>Proyecto reproducible para medir y comunicar movilidad social con métricas, matrices de transición y reportes — con <strong>transparencia metodológica</strong> y <strong>uso responsable</strong>.</p>
-
 <ul>
-  <li>Reportes compartibles con no técnicos</li>
-  <li>Métricas bien documentadas (sin vender causalidad)</li>
+<li>Reportes compartibles con no técnicos</li>
+<li>Métricas bien documentadas (sin vender causalidad)</li>
 </ul>
-
 <p>→ <a href="https://github.com/jcval94/movilidad_social_mx">github.com/jcval94/movilidad_social_mx</a></p>
-
-    </td>
-  </tr>
+</td>
+</tr>
 </table>
+
 
 ---
 
