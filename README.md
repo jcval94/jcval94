@@ -1,16 +1,74 @@
-## Hi there 👋
+<!-- jcval94 / Profile README — Elegant / Harmonious / Pro -->
 
-<!--
-**jcval94/jcval94** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
 
-Here are some ideas to get you started:
+<!-- Recomendado: usa tu banner propio /assets/banner.svg para un look consistente -->
+<img src="./assets/banner.svg" alt="JC banner" width="100%" />
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br/><br/>
+
+<p>
+  <a href="https://github.com/jcval94/InsideForest">InsideForest</a> ·
+  <a href="https://github.com/jcval94/movilidad_social_mx">Movilidad Social (MX)</a> ·
+  <a href="https://github.com/sponsors/jcval94">Sponsors</a> ·
+  <a href="mailto:YOUR_EMAIL">Email</a> ·
+  <a href="YOUR_CALENDAR">Calendar</a>
+</p>
+
+<!-- Animación opcional, MUY sutil.
+     Si quieres aún más elegancia: bórrala completamente. -->
+<img src="https://readme-typing-svg.demolab.com?font=Inter&size=14&duration=2600&pause=1200&color=9CA3AF&center=true&vCenter=true&width=760&lines=Interpretable+ML+%E2%80%94+reglas%2C+segmentos+y+pipelines+reproducibles+para+decisiones+reales." />
+
+</div>
+
+---
+
+## En una frase
+Construyo **ML interpretable** (reglas, segmentos, regiones) y **pipelines reproducibles** para datos tabulares — con foco en **riesgo, fraude, segmentación** y **análisis social**.
+
+---
+
+## Proyectos principales
+
+### 🌲 InsideForest
+**Supervised clustering interpretable**: segmenta población guiándote por un target (fraude/churn/etc.) y devuelve **reglas claras** + métricas por segmento.
+
+- Segmentación guiada por objetivo (no clustering “ciego”)
+- Interpretabilidad utilizable (reglas compactas)
+- Enfoque tabular, mentalidad scikit-learn
+
+→ https://github.com/jcval94/InsideForest
+
+---
+
+### 📈 Movilidad Social (MX)
+Proyecto reproducible para medir y comunicar movilidad social con métricas, matrices de transición y reportes — con **transparencia metodológica** y **uso responsable**.
+
+- Reportes compartibles con no técnicos
+- Métricas bien documentadas (sin vender causalidad)
+- Limitaciones y ética como primera clase
+
+→ https://github.com/jcval94/movilidad_social_mx
+
+---
+
+## Trabajo conmigo
+Si tu equipo quiere implementar esto con rigor (reproducibilidad, documentación y resultados defendibles):
+
+- **Auditoría** (1–2 semanas): riesgos (leakage/drift), estabilidad, setup recomendado
+- **Implementación** (2–6 semanas): integración a pipeline, CI, reportes y governance
+- **Workshop**: interpretabilidad aplicada + segmentación guiada por target
+
+Email: `jcval94@gmail.com`  
+Calendar: `NPI`
+
+---
+
+## Sponsors
+Si te sirve lo que construyo y quieres empujar el roadmap:
+
+→ https://github.com/sponsors/jcval94
+
+<div align="center">
+  <sub>Menos ruido, más señal. Reproducible, interpretable y presentable.</sub>
+</div>
