@@ -1,3 +1,22 @@
 {
-  "source": "dummy_local_preview"
+  "source": "github_api",
+  "github_user": "jcval94",
+  "config": {
+    "github_user": "jcval94",
+    "weeks": 53,
+    "days": 7,
+    "canvas_width": 1280,
+    "canvas_height": 720,
+    "frames": 16,
+    "fps": 12,
+    "background": "misty",
+    "seed": 42
+  },
+  "meta": {
+    "login": "jcval94",
+    "from": "2024-12-15T00:00:00Z",
+    "to": "2025-12-21T00:00:00Z",
+    "weeks_returned": 53,
+    "weeks_used": 53
+  }
 }
