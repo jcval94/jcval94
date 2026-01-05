@@ -3,7 +3,7 @@
 <div align="center">
 
 <!-- Recomendado: usa tu banner propio /assets/banner.svg para un look consistente -->
-<img src="./assets/BannerGithub2.gif" alt="JC banner" width="100%" />
+<img src="./assets/BannerV2.jpeg" alt="JC banner" width="100%" />
 
 <p>
   <a href="https://github.com/jcval94/InsideForest">InsideForest</a> ·
