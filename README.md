@@ -13,6 +13,10 @@
   <a href="https://cal.com/jcval94">Calendar</a>
 </p>
 
+<p>
+  <img src="https://img.shields.io/github/actions/workflow/status/jcval94/jcval94/pulse.yml?branch=main&label=%20&style=flat-square" alt="" height="12" />
+</p>
+
 <img src="https://readme-typing-svg.demolab.com?font=Inter&size=14&duration=2600&pause=1200&color=9CA3AF&center=true&vCenter=true&width=760&lines=Interpretable+ML+%E2%80%94+reglas%2C+segmentos+y+pipelines+reproducibles+para+decisiones+reales." />
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jcval94/jcval94/output/github-contribution-grid-snake-dark.svg">
