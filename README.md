@@ -3,8 +3,6 @@
 <div align="center">
 
 <!-- Recomendado: usa tu banner propio /assets/banner.svg para un look consistente -->
-<img src="./assets/BannerV2.jpeg" alt="JC banner" width="100%" />
-
 <p>
   <a href="https://github.com/jcval94/InsideForest">InsideForest</a> ·
   <a href="https://github.com/jcval94/movilidad_social_mx">Movilidad Social (MX)</a> ·
